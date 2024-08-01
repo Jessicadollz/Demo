@@ -15,7 +15,7 @@ function Signup() {
         <Link to="/signup">SignUp</Link> */}
         <h1>Signup</h1>
         <input onChange={(e) => setEmail(e.currentTarget.value)} type="email" placeholder="Email" />
-        <input onChange={(e) => setPassword(e.currentTarget.value)} type="text" placeholder="Password" />
+        <input onChange={(e) => setPassword(e.currentTarget.value)} type="password" placeholder="Password" />
         <button onClick={() => signup(email, pass)} style={{marginBottom:"2rem"}}>Signup</button>
 
         <div className="btn-container">

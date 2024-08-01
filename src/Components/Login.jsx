@@ -19,7 +19,7 @@ function Login() {
         {/* <Link to="/login" className="btn">SignIn</Link> 
         <Link to="/signup" className="btn">SignUp</Link> */}
         <input onChange={(e) => setEmail(e.currentTarget.value)} type="email" placeholder="Email" />
-        <input onChange={(e) => setPassword(e.currentTarget.value)} type="text" placeholder="Password" />
+        <input onChange={(e) => setPassword(e.currentTarget.value)} type="password" placeholder="Password" />
         <button onClick={() => login(email, pass)} style={{marginBottom:"2rem"}}>Login</button> <br />
 
         <div className="btn-container">
